@@ -1,0 +1,5 @@
+Copy Assemblies.cfg to RunUO Data folder
+Copy Scripts to RunUO Scripts folder
+Copy the two assemblies to the RunUO Main Folder
+
+Start RunUO beta 36

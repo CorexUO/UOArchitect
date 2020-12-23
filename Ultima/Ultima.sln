@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima", "Ultima\Ultima.csproj", "{B9723284-F079-4E36-BC53-80A207B8B3FC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B9723284-F079-4E36-BC53-80A207B8B3FC}.Debug.ActiveCfg = Debug|.NET
+		{B9723284-F079-4E36-BC53-80A207B8B3FC}.Debug.Build.0 = Debug|.NET
+		{B9723284-F079-4E36-BC53-80A207B8B3FC}.Release.ActiveCfg = Release|.NET
+		{B9723284-F079-4E36-BC53-80A207B8B3FC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

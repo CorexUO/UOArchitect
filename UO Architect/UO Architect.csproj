@@ -1,0 +1,586 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{230CB78D-8928-4F04-BD37-B8D76ABA0BC7}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "House2.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "UO Architect"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "UOArchitect"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = "UOArchitect.UOARToolBox"
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "UOArchitectInterface"
+                    Project = "{14DDB71B-2436-4E31-B20E-F2BE8540E423}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Ultima"
+                    Project = "{B9723284-F079-4E36-BC53-80A207B8B3FC}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "OrbServerSDK"
+                    AssemblyName = "OrbServerSDK"
+                    HintPath = "..\OrbScriptServerSDK\bin\Debug\OrbServerSDK.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CategoryList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChangeLog.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Config.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MultiImageMaker.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ServerConnection.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\Viewer.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\Viewer.resx"
+                    DependentUpon = "Viewer.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Extra\OrbServerSDK.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Ultima.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\housebase.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\scriptbase.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\toolbox.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\cursor_del.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\scroll.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_back.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_back_tileset.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_destroy_reg.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_destroy_sel.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_door_reg.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_door_sel.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_eyedrop_reg.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_eyedrop_sel.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_floor_reg.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_floor_sel.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_foliage_reg.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_foliage_sel.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_misc_reg.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_misc_sel.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_stair_reg.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_stair_sel.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_system_reg.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_system_sel.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_tele_reg.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_tele_sel.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_up.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_wall_reg.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Internal\Graphics\tb_wall_sel.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Extra\Save\Designs.bin"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Extra\Save\Designs.idx"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Forms\BuildDialog.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\BuildDialog.resx"
+                    DependentUpon = "BuildDialog.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Forms\DesignPreview.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\DesignPreview.resx"
+                    DependentUpon = "DesignPreview.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Forms\DesignPropertyEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\DesignPropertyEditor.resx"
+                    DependentUpon = "DesignPropertyEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Forms\EditServerListing.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\EditServerListing.resx"
+                    DependentUpon = "EditServerListing.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Forms\InputDialog.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\InputDialog.resx"
+                    DependentUpon = "InputDialog.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Forms\LoginDialog.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\LoginDialog.resx"
+                    DependentUpon = "LoginDialog.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Forms\MoveItemControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forms\MoveItemControl.resx"
+                    DependentUpon = "MoveItemControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HouseDesigner\HouseComponent.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HouseDesigner\HouseDesign.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HouseDesigner\HouseDesigner.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HouseDesigner\HouseDesigner.resx"
+                    DependentUpon = "HouseDesigner.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HouseDesigner\NewDesigner.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HouseDesigner\NewDesigner.resx"
+                    DependentUpon = "NewDesigner.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HouseDesigner\TileSet.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HouseDesigner\ToolBox.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HouseDesigner\ToolBox.resx"
+                    DependentUpon = "ToolBox.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HouseDesigner\Utility.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\BaseDesignAdapter.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\BinaryFileReader.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\BinaryFileWriter.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\ComponentRecord.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\DesignData.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\HouseDesignData.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\MultiCacheAdapter.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\MultiPatcher.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\MultiTextAdapter.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\ServerListing.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\ServerListingCol.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\UOARBatchDataAdapter.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\UOARDataAdapter.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IO\WFItemsAdapter.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Network\ItemExtracter.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Network\ItemSelector.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Toolbox\AboutTab.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Toolbox\AboutTab.resx"
+                    DependentUpon = "AboutTab.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Toolbox\UOARToolbox.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Toolbox\UOARToolbox.resx"
+                    DependentUpon = "UOARToolbox.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Toolbox\Controls\DesignPropertyControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Toolbox\Controls\DesignPropertyControl.resx"
+                    DependentUpon = "DesignPropertyControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Toolbox\Controls\DesignTreeView.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Toolbox\Controls\DesignTreeView.resx"
+                    DependentUpon = "DesignTreeView.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Toolbox\Controls\FilterByZControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Toolbox\Controls\FilterByZControl.resx"
+                    DependentUpon = "FilterByZControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Toolbox\Controls\MoveControlMockup.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Toolbox\Controls\MoveControlMockup.resx"
+                    DependentUpon = "MoveControlMockup.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Toolbox\TabPanels\DesignsPanel.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Toolbox\TabPanels\DesignsPanel.resx"
+                    DependentUpon = "DesignsPanel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Toolbox\TabPanels\ExtractPanel.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Toolbox\TabPanels\ExtractPanel.resx"
+                    DependentUpon = "ExtractPanel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Toolbox\TabPanels\MovePanel.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Toolbox\TabPanels\MovePanel.resx"
+                    DependentUpon = "MovePanel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Toolbox\TabPanels\OptionsTab.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Toolbox\TabPanels\OptionsTab.resx"
+                    DependentUpon = "OptionsTab.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

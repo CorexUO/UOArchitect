@@ -1,0 +1,48 @@
+<VisualStudioProject>
+    <CSHARP LastOpenVersion = "7.10.3077" >
+        <Build>
+            <Settings ReferencePath = "D:\Legend Tools\UO Architect\;D:\Legend Tools\OrbScriptServerSDK\OrbScriptServerSDK\bin\Release\;D:\Legend Tools\OrbScriptServerSDK\OrbScriptServerSDK\bin\Debug\;D:\Orbsydia Tools\UO Architect\Extra\;C:\Personal Projects\Orbsydia Tools\UO Architect\Extra\;E:\My Projects\Orbsydia Tools\UO Architect\Extra\;F:\Development\Personal Projects\My Projects\UOAR 2.4 Source Code\OrbScriptServerSDK\bin\Debug\;F:\Development\Personal Projects\UO Projects\UOAR 2.4 Source Code\OrbScriptServerSDK\bin\Debug\;F:\Development\Personal Projects\UO Projects\UOAR 2.5 Source Code\OrbScriptServerSDK\bin\Debug\;C:\Projects\UOAR 2.5 Source Code\OrbScriptServerSDK\bin\Debug\" >
+                <Config
+                    Name = "Debug"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                />
+                <Config
+                    Name = "Release"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                />
+            </Settings>
+        </Build>
+        <OtherProjectSettings
+            CopyProjectDestinationFolder = ""
+            CopyProjectUncPath = ""
+            CopyProjectOption = "0"
+            ProjectView = "ProjectFiles"
+            ProjectTrust = "0"
+        />
+    </CSHARP>
+</VisualStudioProject>
+

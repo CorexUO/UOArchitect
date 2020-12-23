@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrbServerSDK", "OrbServerSDK.csproj", "{2596B534-5E94-4A7F-820C-31475E4D8B2F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2596B534-5E94-4A7F-820C-31475E4D8B2F}.Debug.ActiveCfg = Debug|.NET
+		{2596B534-5E94-4A7F-820C-31475E4D8B2F}.Debug.Build.0 = Debug|.NET
+		{2596B534-5E94-4A7F-820C-31475E4D8B2F}.Release.ActiveCfg = Release|.NET
+		{2596B534-5E94-4A7F-820C-31475E4D8B2F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

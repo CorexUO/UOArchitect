@@ -1,0 +1,154 @@
+// UO Architect Change log
+// Programmer - Xandor
+// Updated 4/3/2004
+
+
+**** Version 2.4 Beta Updates ****
+- Added Import World Forge items to the File->Import menu (this imports items exported from World Forge)
+- Added Export Multi Data option to the File->Export menu. (this exports the selected design to a multi data file World Forge can import.
+
+**** Version 2.2 Beta Updates ****
+Added Patch Muls button to the database tab that allows you to patch the selected design to the multi muls.
+Added Multi Muls Target setting to the Options Tab that lets you specify which multi muls should be patched.
+
+**** Version 2.1 Beta Changes ****
+Client:
+- New Login Manager dialog that stores multiple server lists for easy server connection.
+- You can export entire categories, subcategories, or individual designs to a single *.uoa file by
+right-clicking the node and pressing the right-mouse button to bring up the export menu.
+- You can now import multiple designs from a *.uoa file if the *.uoa file contains multiple designs. 
+- Import from *.uoa file has been highly optimized.
+- Added options tab to store misc settings.
+- You can now override the default UO directoy location on the Options tab
+- You can now change which prefix is used for RunUO server commands on the options tab
+- Several misc bug fixes and tweaks.
+
+Server:
+Scripts now support extracting custom houses build with the AOS house designer interface.
+
+**** Version 2.0 Beta Updates ****
+
+Client:
+- Toolbox min & max Z eyedropper now gets z from targeted landtile, items (frozen & non-frozen) and mobiles.
+- Removed the Design Manager Dialog
+- Removed the Main MDI form
+- Changed the Designer to a non MDI-child dialog
+- Changed the Preview screen to a non MDI-child dialog
+- Completed the Designs tab of the main UOAR toolbox
+- Categories, subsections, and the design names can be edited by single-clicking the tree nodes
+- Build dialog can be opened for a design by double-clicking the design in the treeview
+- Added new Replace button on the designs tab that replaces the selected design with a new extraction.
+- Making changes to or extracting new designs no longer requires the treeview display to completely repopulate.
+- Added File menu that contains the import/export menu items to the main toolbox dialog
+- Added Connect/Disconnect menu item. This replaces the Connect/Disconnect button on the old Design Manager screen.
+- Added Links menu that contains links to various websites.
+- Added About menu item that displays the UOAR about dialog that contains version and credits.
+- Move Tab - Item Select panel - Single-click Select button allows one selection, right-click multiple selections (Cancel target to finish selection)
+- Move Tab - Item Select panel - Single-click Include button allows one selection, right-click multiple selections (Cancel target to finish selection)
+- Move Tab - Item Select panel - Single-click Exclude button allows one selection, right-click multiple selections (Cancel target to finish selection)
+
+Server:
+- Script changes to support enhanced client features
+
+**** Version 1.9 Beta Updates ****
+Client:
+- Toolbox Wipe selected items button now works
+- Added eyedropper button to toolbox that plugs in the Min Z with the z of a targeted item.
+- Added eyedropper button to toolbox that plugs in the Max Z with the z of a targeted item.
+
+Server:
+- Fixed the extract item script so it excludes invisible items (teleporters, spawn gems, etc.)
+
+**** Version 1.8 Beta Updates ****
+
+Client:
+- The connect button now changes to Disconnect while you are connected. Press to disconnect.
+- Moving an item that was selected twice no longer causes that item to move twice for each press of the arrow buttons.
+- You can now work with the other dialogs while the Design Preview window is open.
+- More than one preview window can be open at a time.
+- Fixed the bug that caused an exception when canceling one of the extract targets.
+- Fixed the bug that caused items to be hued if the Build dialog's Hued checkbox was checked when built.
+- Designer is maximized by default when first opened.
+- Added the first tab of the New toolbox design. 
+- Items can be selected by area or one by one.
+- Area selections can now be limited by Z.
+- Individual Items can be removed from the selection
+- An area of items can be removed from the selection (z filter can be used for this action)
+- Toolbox Remove button allows you to keep deleting items until you press ESC.
+
+Server:
+- Fixed the bug that sent back the same item serial for each time it was selected.
+- Added support for new toolbox functionality.
+
+**** Version 1.7 Beta Updates ****
+
+Client: (**NOTE** Requires version 1.7 of the UOAR server)
+-New Toolbox dialog that can be opened from within the Design Manager, Build, and Extract dialogs
+Toolbox features include:
+- Select items to manipulate with the toolbox's movement buttons. (select individual items or items within bounding box)
+- Once you have items selected, you can move them around or raise/lower them.
+- Nudge self up or down
+- Several RunUO client commands (WipeItems, Remove, Flip, GO, Tele, etc.)
+- Get Z button (returns the z of a targeted object)
+- Extract button that brings up the extract dialog
+
+Server:
+Added additional UO Architect scripts to support the new UOAR toolbox commands.
+
+**** Version 1.6 Beta Updates ****
+Client:
+- Fixed the Build dialog bug so it doesn't duplicate its items if you open it in the build dialog twice.
+- Designer toolbar is scrollable.
+- Add new button graphics to the Build Dialog
+- Revised Build Dialog 
+- Added Extract button to Build Dialog that opens extract dialog
+- Added Toolbox button to the Build Dialog that opens the toolbox dialog
+- Added Toolbox button to the Extract Dialog that opens the toolbox dialog
+- Fixed the bug that caused the extract to fail if the bounding box didn't contain at least 1 non-frozen item.
+
+**** Version 1.5 Beta Updates ****
+Client:
+- Fixed bug that caused the Export to *.uoa file option to fail.
+
+**** Version 1.4 Beta Updates *****
+
+Client Changes:
+- Added "Get Z" button
+- Changed "Get Obj Location" to "Get Location"
+
+Server Changes:
+- Added server DNS support. You can now point UOAR to your dns name "www.myshard.com"
+- Enhanced UOAR Server security
+
+**** Version 1.3 Beta Updates *****
+
+Client Changes:
+- Fixed Build (Foundation unchecked) bug that caused buildings to build at seven Z.
+- Slimmed the Extract dialog down
+- Added Get Object Location button to the Extract Z filter panel.
+- Build dialog opens up at the last position it was closed
+- Extract dialog opens up at the last position it was closed.
+
+**** Version 1.2 Beta Udates ******
+
+Client Changes:
+- Optimized the Design Preview dialog
+- Preview Dialog now displays hued items properly
+- Optimized the save/load functionality
+- Optimized the import/export functionality
+- Optimized the build/extract features
+- Removed option to export to the original House Builder (uoh) format due to data incompatiblities.
+
+Server Changes:
+- Optimized the format of the data that gets set from the UOAR client tool
+- Fixed the client lockup bug when cancelling the second extract target.
+
+**** UO Architect 1.1. Beta changes *****
+
+Client Bug Fixes:
+- Extract Dialog is no longer a mdi child form.
+- Design Mngr Extract button brings up extract dialog if already displayed.
+- Design Properties saved Subsection name changes.
+- Extract Dialog now applies Name, Category, and Subsection entries instead of defaults.
+- Middle button on Build dialog is now labled Loc. (executes RunUO's [Get location command).
+

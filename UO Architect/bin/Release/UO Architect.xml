@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <prefix>[</prefix>
+  <multiPatch multiIdxTarget="" multiMulTarget="" />
+  <server id="a7f3bac5-7487-48c9-85a7-664c2480c023">
+    <name>Test</name>
+    <password>kzl3j5</password>
+    <ip>127.0.0.1</ip>
+    <port>2594</port>
+    <acct>Slayde</acct>
+  </server>
+</settings>

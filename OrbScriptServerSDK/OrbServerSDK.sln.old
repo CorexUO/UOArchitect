@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrbScriptServerSDK", "OrbScriptServerSDK.csproj", "{2596B534-5E94-4A7F-820C-31475E4D8B2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrbScriptServer", "..\OrbScriptServer\OrbScriptServer.csproj", "{6A83B5CA-FDA2-4CBF-8714-DA12868C9FBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2596B534-5E94-4A7F-820C-31475E4D8B2F}.Debug.ActiveCfg = Debug|.NET
+		{2596B534-5E94-4A7F-820C-31475E4D8B2F}.Debug.Build.0 = Debug|.NET
+		{2596B534-5E94-4A7F-820C-31475E4D8B2F}.Release.ActiveCfg = Release|.NET
+		{2596B534-5E94-4A7F-820C-31475E4D8B2F}.Release.Build.0 = Release|.NET
+		{6A83B5CA-FDA2-4CBF-8714-DA12868C9FBE}.Debug.ActiveCfg = Debug|.NET
+		{6A83B5CA-FDA2-4CBF-8714-DA12868C9FBE}.Debug.Build.0 = Debug|.NET
+		{6A83B5CA-FDA2-4CBF-8714-DA12868C9FBE}.Release.ActiveCfg = Release|.NET
+		{6A83B5CA-FDA2-4CBF-8714-DA12868C9FBE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
